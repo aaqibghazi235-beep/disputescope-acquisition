@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090814">
+  <meta name="description" content="Acquisition information for DisputeScope, an early-stage transaction and payment-dispute analytics project.">
+  <meta property="og:title" content="DisputeScope — Acquisition Opportunity">
+  <meta property="og:description" content="An early-stage transaction and payment-dispute analytics project. Live demo and acquisition details.">
+  <meta property="og:type" content="website">
+  <title>DisputeScope — Acquisition Opportunity</title>
+  <style>
+    :root{color-scheme:dark;--bg:#090814;--panel:#121020;--panel2:#17132a;--line:#2b2542;--text:#f7f5ff;--muted:#b4adc9;--purple:#a78bfa;--violet:#7c3aed;--cyan:#67e8f9}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:radial-gradient(ellipse at 80% 0%,rgba(124,58,237,.22),transparent 34%),radial-gradient(ellipse at 5% 30%,rgba(103,232,249,.08),transparent 32%),var(--bg);color:var(--text);font:16px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+    a{color:inherit}
+    .wrap{width:min(1080px,calc(100% - 40px));margin:auto}
+    header{padding:24px 0;border-bottom:1px solid rgba(167,139,250,.15)}
+    .brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-weight:750;letter-spacing:-.03em;font-size:1.08rem}
+    .mark{width:34px;height:34px;border-radius:11px;background:linear-gradient(145deg,#c4b5fd,#7c3aed 68%,#4c1d95);display:grid;place-items:center;box-shadow:0 8px 28px rgba(124,58,237,.35)}
+    .mark svg{width:21px;height:21px}
+    .nav{display:flex;justify-content:space-between;align-items:center}
+    .navsmall{color:var(--muted);font-size:.9rem;text-decoration:none}
+    .hero{padding:92px 0 74px;max-width:850px}
+    .eyebrow{display:inline-flex;gap:9px;align-items:center;color:#ddd2ff;background:rgba(124,58,237,.13);border:1px solid rgba(167,139,250,.27);padding:7px 13px;border-radius:999px;font-size:.82rem;font-weight:650}
+    .dot{width:7px;height:7px;background:#a78bfa;border-radius:50%;box-shadow:0 0 14px #a78bfa}
+    h1{font-size:clamp(2.8rem,7vw,5.6rem);letter-spacing:-.065em;line-height:1.02;margin:24px 0 20px}
+    .gradient{background:linear-gradient(95deg,#fff 5%,#d8ccff 52%,#a78bfa 95%);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .lead{max-width:720px;color:var(--muted);font-size:1.17rem}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:12px;text-decoration:none;font-weight:700;border:1px solid var(--line);transition:.2s}
+    .btn.primary{background:linear-gradient(115deg,#8b5cf6,#6d28d9);border-color:#8b5cf6;box-shadow:0 10px 35px rgba(109,40,217,.25)}
+    .btn.secondary{background:rgba(255,255,255,.035);color:#ece7ff}
+    .btn:hover{transform:translateY(-2px);filter:brightness(1.12)}
+    .facts{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:20px 0 70px}
+    .fact,.card{background:linear-gradient(145deg,rgba(23,19,42,.94),rgba(15,13,27,.94));border:1px solid var(--line);border-radius:18px;padding:22px}
+    .fact small{display:block;color:var(--muted);font-size:.77rem;text-transform:uppercase;letter-spacing:.11em;font-weight:700}
+    .fact strong{display:block;font-size:1.55rem;letter-spacing:-.04em;margin-top:5px}
+    section{padding:0 0 72px}
+    h2{font-size:clamp(1.7rem,4vw,2.4rem);letter-spacing:-.045em;margin:0 0 12px}
+    .sub{color:var(--muted);max-width:720px;margin:0 0 24px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .card h3{margin:0 0 8px;font-size:1.02rem}
+    .card p{margin:0;color:var(--muted);font-size:.93rem}
+    .ico{width:35px;height:35px;border:1px solid rgba(167,139,250,.22);background:rgba(124,58,237,.13);border-radius:10px;display:grid;place-items:center;color:var(--purple);margin-bottom:16px;font-weight:800}
+    .status{display:grid;grid-template-columns:1.15fr .85fr;gap:16px}
+    .status .card{padding:26px}
+    ul{padding-left:20px;color:var(--muted);margin:10px 0 0}
+    li{margin:8px 0}
+    .note{border:1px solid rgba(251,191,36,.27);background:rgba(120,75,15,.12);border-radius:14px;padding:17px 18px;color:#e8d9b2;font-size:.92rem}
+    .price{font-size:2.3rem;font-weight:800;letter-spacing:-.05em;margin:5px 0}
+    .muted{color:var(--muted)}
+    footer{border-top:1px solid rgba(167,139,250,.15);padding:26px 0 42px;color:var(--muted);font-size:.85rem}
+    @media(max-width:760px){.facts,.grid,.status{grid-template-columns:1fr}.hero{padding:70px 0 54px}.facts{margin-bottom:58px}.navsmall{display:none}}
+  </style>
+</head>
+<body>
+  <header><div class="wrap nav">
+    <a class="brand" href="#"><span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V13h4v6M10 19V9h4v10M16 19V4h4v15"/></svg></span>DisputeScope</a>
+    <a class="navsmall" href="https://github.com/aaqibghazi235-beep/disputescope-acquisition">Acquisition information</a>
+  </div></header>
+  <main class="wrap">
+    <div class="hero">
+      <div class="eyebrow"><span class="dot"></span> EARLY-STAGE SOFTWARE ACQUISITION</div>
+      <h1><span class="gradient">Understand disputes.</span><br>See the transaction picture.</h1>
+      <p class="lead">DisputeScope is a browser-based transaction and payment-dispute analytics project built to help teams review CSV data, spot dispute patterns, inspect data quality, and export operational reports.</p>
+      <div class="actions">
+        <a class="btn primary" href="https://disputescope1.netlify.app/" target="_blank" rel="noopener">Explore the live demo ↗</a>
+        <a class="btn secondary" href="https://github.com/aaqibghazi235-beep/disputescope-acquisition">Buyer information</a>
+      </div>
+    </div>
+    <div class="facts">
+      <div class="fact"><small>Asking price</small><strong>$5,000 USD</strong><span class="muted">One-time project acquisition</span></div>
+      <div class="fact"><small>Commercial stage</small><strong>Pre-revenue</strong><span class="muted">No paying customers or revenue claimed</span></div>
+      <div class="fact"><small>Product format</small><strong>CSV analytics</strong><span class="muted">Browser-based demonstration</span></div>
+    </div>
+    <section>
+      <h2>What the project does today</h2>
+      <p class="sub">A focused analytics foundation for reviewing payment transaction and dispute datasets.</p>
+      <div class="grid">
+        <article class="card"><div class="ico">01</div><h3>Import and inspect</h3><p>Upload transaction CSVs and review parsed transaction records, data quality, and duplicate identifiers.</p></article>
+        <article class="card"><div class="ico">02</div><h3>Analyze dispute patterns</h3><p>Review disputed transactions, dispute reasons, rates, and operational summaries.</p></article>
+        <article class="card"><div class="ico">03</div><h3>Reconcile records</h3><p>Compare transaction datasets, match records, and surface amount differences for review.</p></article>
+        <article class="card"><div class="ico">04</div><h3>Explore analytics</h3><p>Use dashboard views, search, filters, and historical summaries where supported by imported data.</p></article>
+        <article class="card"><div class="ico">05</div><h3>Export reports</h3><p>Export transaction data, findings, and analysis outputs as CSV files.</p></article>
+        <article class="card"><div class="ico">06</div><h3>Demonstrate safely</h3><p>Use synthetic sample records to evaluate the product without exposing real cardholder data.</p></article>
+      </div>
+    </section>
+    <section>
+      <h2>Acquisition and diligence</h2>
+      <p class="sub">An acquiring developer or fintech team can evaluate the current product and decide whether its analytics foundation fits an existing roadmap.</p>
+      <div class="status">
+        <div class="card">
+          <h3>Proposed transaction</h3>
+          <div class="price">$5,000 USD</div>
+          <p class="muted">Negotiable after a product demonstration and technical review. This is an asking price, not an independent valuation or guaranteed offer.</p>
+          <ul>
+            <li>One-time acquisition of specifically inventoried assets.</li>
+            <li>Source code transfer only where ownership and third-party licence rights are verified.</li>
+            <li>Written agreement and cleared payment before handover.</li>
+            <li>No customer or cardholder data included.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Important status boundaries</h3>
+          <p class="muted">The project is early-stage and pre-revenue. Do not assume the following are live or production-ready without independent verification:</p>
+          <ul>
+            <li>Payment gateway integrations and webhooks.</li>
+            <li>Production authentication and tenant isolation.</li>
+            <li>Subscription billing and entitlement enforcement.</li>
+            <li>Automated dispute submission or representment.</li>
+            <li>Validated machine-learning predictions or compliance certifications.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="note" style="margin-top:16px"><strong>Demonstration safety:</strong> Use synthetic data only. Do not upload real cardholder or customer financial data to the public demo.</div>
+    </section>
+    <section>
+      <h2>Review the project</h2>
+      <p class="sub">Start with the live demonstration, then review the acquisition documentation and discuss whether the project fits your product roadmap.</p>
+      <div class="actions">
+        <a class="btn primary" href="https://disputescope1.netlify.app/" target="_blank" rel="noopener">Open DisputeScope ↗</a>
+        <a class="btn secondary" href="https://github.com/aaqibghazi235-beep">Owner's GitHub profile</a>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap">© DisputeScope project · Early-stage, pre-revenue software · Acquisition information only. No offer or sale is guaranteed.</div></footer>
+</body>
+</html>
